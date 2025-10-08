@@ -6,7 +6,7 @@ const Faqs = props => {
   return (
     <div className="faqs-container">
       <div className="faqs-head">
-        <h1 className="faqs">FAQS</h1>
+        <h1 className="faqs">FAQs</h1>
       </div>
       {faqsList.map(each => (
         <FaqItem key={each.id} faqDetails={each} />
