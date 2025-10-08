@@ -1,0 +1,29 @@
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+}
+.faq-toggle-btn {
+  background: transparent;
+  border: none;
+}
+.faq-toggle-btn img {
+  width: 30px;
+  height: 30px;
+}
+.faq-item {
+  border: solid 2px #d7dae6;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+hr {
+  border: solid 1px #d7dae6;
+}
+.faq-question {
+  color: #52606d;
+}
+.faq-answer {
+  color: #9aa5b1;
+}

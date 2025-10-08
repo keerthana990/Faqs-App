@@ -1,0 +1,19 @@
+.faqs-container {
+  padding: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+li {
+  list-style-type: none;
+}
+.faqs {
+  color: #cb8805;
+  align-items: center;
+  font-weight: bold;
+}
+.faqs-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
