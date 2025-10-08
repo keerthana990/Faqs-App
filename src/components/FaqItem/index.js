@@ -14,7 +14,7 @@ const FaqsItem = props => {
     <li className="faq-item" id={id}>
       <div className="faq-header">
         <h3 className="faq-question">{questionText}</h3>
-        <button className="faq-toggle-btn" onClick={onToggleAnswer type="button"}>
+        <button className="faq-toggle-btn" onClick={onToggleAnswer} type="button">
           <img
             src={
               isActive
